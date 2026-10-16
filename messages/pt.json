@@ -1,0 +1,14 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"header_logo_link_aria_label": "Ir para a página inicial",
+	"header_logo_image_alt": "Logo do MelliMusic",
+	"header_navigation_aria_label": "Go to the {page} page",
+	"header_navigation_text_my_musical_profile": "Meu Perfil Musical",
+	"header_navigation_text_music_archive": "Arquivo Musical",
+	"header_navigation_text_music_community": "Comunidade Musical",
+	"header_language_en_aria_label": "Trocar idioma para inglês",
+	"header_language_pt_aria_label": "Trocar idioma para português",
+	"header_cta_login": "Entrar no Melli",
+	"header_open_mobile_menu_aria_label": "Abrir menu",
+	"header_close_mobile_menu_aria_label": "Fechar menu"
+}
