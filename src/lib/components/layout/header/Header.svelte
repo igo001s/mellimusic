@@ -2,6 +2,9 @@
 	// App
 	import { resolve } from '$app/paths';
 
+	// Components
+	import CtaButton from '#lib/components/ui/buttons/CtaButton.svelte';
+
 	// Assets
 	import MelliMusicLogo from '#lib/assets/images/logos/mellimusic-logo.webp?enhanced';
 	import MenuMobileIcon from '#lib/assets/icons/MenuMobileIcon.svelte';
@@ -76,12 +79,9 @@
 			{/each}
 		</div>
 
-		<button
-			type="button"
-			class="cursor-pointer rounded-full bg-secondary px-6 py-3 font-semibold text-base-dark transition-colors duration-300 hover:bg-secondary/80"
-		>
+		<CtaButton link="/">
 			{m.header_cta_login()}
-		</button>
+		</CtaButton>
 	</div>
 
 	<button

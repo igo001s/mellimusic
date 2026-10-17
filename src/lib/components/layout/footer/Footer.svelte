@@ -68,7 +68,7 @@
 	]);
 </script>
 
-<footer class="bg-base-dark px-5 py-14 sm:px-7 xl:px-16">
+<footer class="bg-base-dark px-5 pt-14 pb-10 sm:px-7 xl:px-16">
 	<div class="flex flex-col items-center justify-between gap-14 sm:flex-row sm:items-start">
 		<div class="space-y-12">
 			<div class="footer-stack gap-3">
@@ -83,7 +83,7 @@
 				<p class="block font-light text-base-light/90">{m.footer_tagline()}</p>
 			</div>
 
-			<div class="footer-stack gap-6">
+			<div class="footer-stack gap-5">
 				<p class="font-semibold text-base-light/90">{m.footer_product_of()}</p>
 
 				<a
@@ -98,9 +98,9 @@
 			</div>
 		</div>
 
-		<div class="flex flex-col gap-10 sm:flex-row sm:gap-20 xl:gap-32">
+		<div class="flex flex-col gap-10 sm:flex-row sm:gap-20 xl:gap-28">
 			<div class="footer-stack gap-6">
-				<p class="font-bold text-base-light uppercase">
+				<p class="column-title">
 					{m.footer_follow_title()}
 				</p>
 
@@ -114,7 +114,7 @@
 								target="_blank"
 								class="footer-link transition-colors duration-500"
 							>
-								<socialLink.icon iconClass="h-7 w-7" />
+								<socialLink.icon iconClass="h-6.5 w-6.5" />
 							</a>
 						</li>
 					{/each}
@@ -122,8 +122,8 @@
 			</div>
 
 			{#each footerColumns as column (column.title)}
-				<div class="footer-stack gap-6">
-					<p class="font-bold text-base-light uppercase">{column.title}</p>
+				<div class="footer-stack gap-5.5">
+					<p class="column-title">{column.title}</p>
 
 					<ul class="footer-stack gap-4">
 						{#each column.items as link (link.text)}
@@ -137,7 +137,7 @@
 		</div>
 	</div>
 
-	<div class="mt-12 border-t border-t-base-light/20 pt-12">
+	<div class="mt-16 border-t border-t-base-light/20 pt-12">
 		<p class="text-center text-sm font-light text-base-light/80">
 			{m.footer_copyright({ year: new Date().getFullYear() })}
 		</p>
@@ -159,6 +159,12 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.column-title {
+		color: var(--color-base-light);
+		text-transform: uppercase;
+		font-weight: 700;
 	}
 
 	@media (min-width: 40rem) {

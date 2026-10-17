@@ -26,5 +26,8 @@
 	"footer_legal_privacy_policy": "Política de Privacidade",
 	"footer_legal_terms_of_service": "Termos de Serviço",
 	"footer_legal_data_usage": "Uso de Dados",
-	"footer_copyright": "© {year} Mellimusic. Todos os direitos reservados."
+	"footer_copyright": "© {year} Mellimusic. Todos os direitos reservados.",
+	"not_found_title": "Ops! Página não encontrada",
+	"not_found_description": "A página que você está procurando não existe. Clique no botão abaixo para voltar à página inicial.",
+	"not_found_cta_back_home": "Voltar para a página inicial"
 }
