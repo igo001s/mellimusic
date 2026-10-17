@@ -4,6 +4,7 @@
 	import type { LayoutProps } from './$types';
 
 	import Header from '#lib/components/layout/header/Header.svelte';
+	import Footer from '#lib/components/layout/footer/Footer.svelte';
 
 	let { children }: LayoutProps = $props();
 
@@ -13,3 +14,5 @@
 <Header bind:isMenuMobileOpen />
 
 {@render children()}
+
+<Footer />

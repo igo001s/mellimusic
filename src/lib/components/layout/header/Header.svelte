@@ -14,7 +14,7 @@
 	import { m } from '#lib/paraglide/messages.js';
 
 	// Props
-	let { isMenuMobileOpen = $bindable() } = $props();
+	let { isMenuMobileOpen = $bindable(false) }: { isMenuMobileOpen?: boolean } = $props();
 
 	let navItems: HeaderNavItems = $derived([
 		{
@@ -32,8 +32,12 @@
 	]);
 </script>
 
-<header class="flex h-[12vh] items-center justify-between px-5 sm:px-7 xl:h-[13vh] xl:px-10">
-	<a href={resolve('/')} aria-label={m.header_logo_link_aria_label()} class="transition-transform duration-300 hover:scale-102">
+<header class="flex h-[12vh] items-center justify-between px-5 sm:px-7 xl:h-[13vh] xl:px-16">
+	<a
+		href={resolve('/')}
+		aria-label={m.header_logo_link_aria_label()}
+		class="transition-transform duration-300 hover:scale-102"
+	>
 		<enhanced:img
 			src={MelliMusicLogo}
 			alt={m.header_logo_image_alt()}
@@ -44,7 +48,7 @@
 	</a>
 
 	<nav class="hidden items-center gap-16 text-base-dark/70 xl:flex">
-		{#each navItems as item, i (i)}
+		{#each navItems as item (item.text)}
 			<a
 				href={resolve(item.href)}
 				aria-label={m.header_navigation_aria_label({ page: item.text })}
@@ -57,8 +61,9 @@
 
 	<div class="hidden items-center gap-14 xl:flex">
 		<div class="flex items-center gap-5 text-base-dark">
-			{#each locales as lang, i (i)}
+			{#each locales as lang (lang)}
 				<button
+					type="button"
 					aria-pressed={getLocale() === lang}
 					aria-label={lang === 'en'
 						? m.header_language_en_aria_label()
@@ -72,6 +77,7 @@
 		</div>
 
 		<button
+			type="button"
 			class="cursor-pointer rounded-full bg-secondary px-6 py-3 font-semibold text-base-dark transition-colors duration-300 hover:bg-secondary/80"
 		>
 			{m.header_cta_login()}
@@ -81,12 +87,11 @@
 	<button
 		type="button"
 		aria-label={isMenuMobileOpen
-			? m.header_open_mobile_menu_aria_label()
-			: m.header_close_mobile_menu_aria_label()}
+			? m.header_close_mobile_menu_aria_label()
+			: m.header_open_mobile_menu_aria_label()}
 		aria-expanded={isMenuMobileOpen}
-		aria-controls="menu-mobile"
 		class="block xl:hidden"
 	>
-		<MenuMobileIcon iconClass="w-8 h-8 md:w-10 md:h-10" iconColor="var(--color-base-dark)" />
+		<MenuMobileIcon iconClass="text-base-dark w-8 h-8 md:w-10 md:h-10" />
 	</button>
 </header>
