@@ -51,7 +51,7 @@
 		</div>
 
 		<div
-			class="mt-4 grid gap-6 rounded-xl bg-secondary px-6 py-4 sm:grid-cols-3 sm:gap-10 md:px-8 md:py-6 xl:mt-16"
+			class="mt-4 grid gap-6 rounded-xl bg-primary px-6 py-4 sm:grid-cols-3 sm:gap-10 md:px-8 md:py-6 xl:mt-16"
 		>
 			{#each heroCardItems as item (item.title)}
 				<div class="space-y-5">

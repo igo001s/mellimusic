@@ -14,7 +14,7 @@
 
 <button
 	type="button"
-	class="cursor-pointer rounded-full bg-secondary px-6 py-3.5 font-semibold text-base-dark transition-colors duration-300 hover:bg-secondary/80"
+	class="cursor-pointer rounded-full bg-primary px-6 py-3.5 font-semibold text-base-dark transition-colors duration-300 hover:bg-primary/80"
 	onclick={() => goto(resolve(link))}
 >
 	{@render children()}
