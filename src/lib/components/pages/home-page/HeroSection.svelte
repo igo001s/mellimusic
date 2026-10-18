@@ -34,7 +34,7 @@
 	<div class="w-full space-y-8 md:space-y-12 lg:w-4/6 xl:w-7/12">
 		<div class="max-w-4xl space-y-4 md:space-y-5">
 			<h1
-				class="text-4xl leading-[1.1] font-bold tracking-tight sm:text-5xl md:text-6xl xl:max-w-xl xl:text-[70px]"
+				class="text-4xl leading-[1.1] font-bold tracking-tight sm:text-5xl md:text-6xl xl:max-w-2xl xl:text-[70px]"
 			>
 				{m.hero_heading_1()}
 			</h1>
@@ -51,10 +51,10 @@
 		</div>
 
 		<div
-			class="mt-4 grid gap-6 rounded-xl bg-primary px-6 py-4 sm:grid-cols-3 sm:gap-10 md:px-8 md:py-6 xl:mt-16"
+			class="mt-4 grid gap-6 rounded-xl bg-primary px-6 py-4 sm:grid-cols-3 sm:gap-8 md:px-8 md:py-6 lg:gap-10 xl:mt-16"
 		>
 			{#each heroCardItems as item (item.title)}
-				<div class="space-y-5">
+				<div class="space-y-4 lg:space-y-5">
 					<div class="space-y-2">
 						<p class="text-lg font-bold">
 							{item.title}
