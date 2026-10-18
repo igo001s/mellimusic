@@ -10,7 +10,7 @@
 	import MenuMobileIcon from '#lib/assets/icons/MenuMobileIcon.svelte';
 
 	// Types
-	import type { HeaderNavItems } from '#lib/types/components/navigation.types.ts';
+	import type { HeaderNavItem } from '#lib/types/components/navigation.types.ts';
 
 	// Paraglide
 	import { setLocale, getLocale, locales } from '#lib/paraglide/runtime.js';
@@ -19,7 +19,7 @@
 	// Props
 	let { isMenuMobileOpen = $bindable(false) }: { isMenuMobileOpen?: boolean } = $props();
 
-	let navItems: HeaderNavItems = $derived([
+	let navItems: HeaderNavItem[] = $derived([
 		{
 			href: '/',
 			text: m.header_navigation_text_my_musical_profile()

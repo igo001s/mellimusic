@@ -10,14 +10,14 @@
 
 	// Types
 	import type {
-		FooterColumnItems,
+		FooterColumnItem,
 		FooterSocialLink
 	} from '#lib/types/components/navigation.types.ts';
 
 	// Paraglide
 	import { m } from '#lib/paraglide/messages.js';
 
-	let footerColumns: FooterColumnItems = $derived([
+	let footerColumns: FooterColumnItem[] = $derived([
 		{
 			title: m.footer_navigation_title(),
 			items: [
@@ -54,7 +54,7 @@
 		}
 	]);
 
-	let socialLinks: FooterSocialLink = $derived([
+	let socialLinks: FooterSocialLink[] = $derived([
 		{
 			icon: LinkedinIcon,
 			ariaLabel: m.footer_social_linkedin_aria_label(),
