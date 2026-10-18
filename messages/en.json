@@ -1,5 +1,6 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"open_graph_image_alt_text": "Mellimusic logo",
 	"header_logo_link_aria_label": "Go to the home page",
 	"header_logo_image_alt": "MelliMusic logo",
 	"header_navigation_aria_label": "Go to the {page} page",
