@@ -3,7 +3,7 @@
 	import type { IconProps } from '#lib/types/components/props.types.ts';
 
 	// Props
-	let { iconClass }: IconProps = $props();
+	const { iconClass }: IconProps = $props();
 </script>
 
 <svg

@@ -35,7 +35,22 @@ export default defineConfig(
 	},
 	{
 		rules: {
-			'svelte/button-has-type': 'error'
+			'svelte/button-has-type': 'error',
+			'svelte/no-target-blank': 'error',
+			'svelte/no-at-html-tags': 'error',
+			'svelte/require-each-key': 'error',
+			'svelte/no-useless-mustaches': 'warn',
+			'svelte/prefer-class-directive': 'warn',
+			'svelte/self-closing-tag': 'off',
+			'no-console': ['warn', { allow: ['warn', 'error'] }],
+			'no-debugger': 'error',
+			eqeqeq: ['error', 'always'],
+			'prefer-const': 'error',
+			'@typescript-eslint/consistent-type-imports': 'warn',
+			'@typescript-eslint/no-unused-vars': [
+				'warn',
+				{ argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
+			]
 		}
 	}
 );

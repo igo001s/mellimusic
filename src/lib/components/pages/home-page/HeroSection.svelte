@@ -12,7 +12,7 @@
 	// Paraglides
 	import { m } from '#lib/paraglide/messages.js';
 
-	let heroCardItems: HeroCardItem[] = $derived([
+	const heroCardItems: HeroCardItem[] = $derived([
 		{
 			title: m.hero_item_discover_title(),
 			description: m.hero_item_discover_description()

@@ -3,7 +3,7 @@
 	import type { LogoProps } from '#lib/types/components/props.types.ts';
 
 	// Props
-	let { logoClass }: LogoProps = $props();
+	const { logoClass }: LogoProps = $props();
 </script>
 
 <svg

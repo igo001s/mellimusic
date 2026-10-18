@@ -9,7 +9,7 @@
 	// Svelte Types
 	import type { Snippet } from 'svelte';
 
-	let { children, link }: { children: Snippet; link: PageRouteId } = $props();
+	const { children, link }: { children: Snippet; link: PageRouteId } = $props();
 </script>
 
 <button
