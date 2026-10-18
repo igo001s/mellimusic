@@ -31,10 +31,10 @@
 <section
 	class="flex h-full flex-col gap-10 px-5 py-8 sm:px-8 md:py-12 lg:flex-row lg:items-center lg:justify-between lg:gap-12 xl:h-[87vh] xl:gap-20 xl:px-16 xl:py-0"
 >
-	<div class="w-full space-y-8 md:space-y-10 lg:w-4/6 xl:w-7/12">
+	<div class="w-full space-y-8 md:space-y-12 lg:w-4/6 xl:w-7/12">
 		<div class="max-w-4xl space-y-4 md:space-y-5">
 			<h1
-				class="text-4xl leading-[1.1] font-bold tracking-tight sm:text-5xl md:text-6xl xl:text-8xl"
+				class="text-4xl leading-[1.1] font-bold tracking-tight sm:text-5xl md:text-6xl xl:max-w-xl xl:text-[70px]"
 			>
 				{m.hero_heading_1()}
 			</h1>
@@ -50,9 +50,11 @@
 			<CtaOutlineButton link="/">{m.hero_cta_learn_more()}</CtaOutlineButton>
 		</div>
 
-		<div class="grid gap-6 rounded-xl bg-secondary p-6 sm:grid-cols-3 sm:gap-8 md:p-8 xl:mt-8">
+		<div
+			class="mt-4 grid gap-6 rounded-xl bg-secondary px-6 py-4 sm:grid-cols-3 sm:gap-10 md:px-8 md:py-6 xl:mt-16"
+		>
 			{#each heroCardItems as item (item.title)}
-				<div class="space-y-3">
+				<div class="space-y-5">
 					<div class="space-y-2">
 						<p class="text-lg font-bold">
 							{item.title}
