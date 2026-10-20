@@ -47,7 +47,9 @@
 		<div class="flex flex-col gap-3 sm:flex-row sm:gap-4">
 			<CtaButton link="/">{m.hero_cta_log_in()}</CtaButton>
 
-			<CtaOutlineButton link="/">{m.hero_cta_learn_more()}</CtaOutlineButton>
+			<CtaOutlineButton link="/" textClassColor="text-base-dark hover:text-base-dark/80"
+				>{m.hero_cta_learn_more()}</CtaOutlineButton
+			>
 		</div>
 
 		<div

@@ -42,7 +42,16 @@
 	"hero_item_connect_description": "Find your friends, see what they listen to most, and comment on their profiles.",
 	"hero_item_share_title": "Share",
 	"hero_item_share_description": "Share your artists and songs however you like.",
-	"not_found_title": "Oops! Page Not Found",
+	"features_title": "Everything you'll find on MelliMusic",
+	"features_cta": "Discover MelliMusic",
+	"features_card1_title": "Access top artists and most played songs",
+	"features_card1_description": "Discover what's trending and explore the community's favorite artists.",
+	"features_card2_title": "Customize your profile",
+	"features_card2_description": "Pick your photo, your favorite artists and show who you are through music.",
+	"features_card3_title": "Share your way",
+	"features_card3_description": "Send songs and playlists to anyone, however you prefer.",
+	"features_card4_title": "Weigh in on your friends' music taste",
+	"features_card4_description": "Comment, react and chat about what your friends are listening to.",
 	"not_found_description": "The page you are looking for doesn't exist. Click the button below to go back to the homepage.",
 	"not_found_cta_back_home": "Back to Homepage"
 }
