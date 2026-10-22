@@ -9,3 +9,12 @@ export type FeatureCardItem = {
 	title: string;
 	description: string;
 };
+
+export type recommendationsCardItem = {
+	name: string;
+	description: string;
+	imageSrc: string;
+	imageAltText: string;
+	genders: string[];
+	link: string;
+};
