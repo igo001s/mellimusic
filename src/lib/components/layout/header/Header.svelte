@@ -35,7 +35,9 @@
 	]);
 </script>
 
-<header class="flex h-[12vh] items-center justify-between px-5 sm:px-7 xl:h-[13vh] xl:px-16">
+<header
+	class="flex h-[12vh] items-center justify-between px-9 py-2 sm:px-11 sm:py-4 xl:h-[13vh] xl:px-20 xl:pt-10"
+>
 	<a
 		href={resolve('/')}
 		aria-label={m.header_logo_link_aria_label()}

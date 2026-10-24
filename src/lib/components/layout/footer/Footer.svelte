@@ -68,7 +68,7 @@
 	]);
 </script>
 
-<footer class="bg-base-dark px-5 pt-14 pb-10 sm:px-7 xl:px-16">
+<footer class="bg-base-dark px-9 pt-14 pb-10 sm:px-11 xl:px-20">
 	<div class="flex flex-col items-center justify-between gap-14 sm:flex-row sm:items-start">
 		<div class="space-y-12">
 			<div class="footer-stack gap-3">

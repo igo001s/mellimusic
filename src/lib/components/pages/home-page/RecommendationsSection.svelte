@@ -45,7 +45,7 @@
 </script>
 
 <section
-	class="flex flex-col-reverse gap-10 bg-base-light px-5 py-12 sm:px-8 md:gap-14 md:py-32 lg:flex-row xl:gap-36 xl:px-16"
+	class="flex flex-col-reverse gap-10 bg-base-light px-9 py-12 sm:px-11 md:gap-14 md:py-32 lg:flex-row xl:gap-36 xl:px-20"
 >
 	<div class="grid grid-cols-1 gap-10 sm:grid-cols-2">
 		{#each indicationCardItems as item (item.name)}
