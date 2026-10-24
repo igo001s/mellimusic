@@ -1,4 +1,10 @@
 <script lang="ts">
+	// Assets
+	import Artist1 from '#lib/assets/images/artists/origami-aquem.webp';
+	import Artist2 from '#lib/assets/images/artists/pairot.webp';
+	import Artist3 from '#lib/assets/images/artists/yung-lixo.webp';
+	import Artist4 from '#lib/assets/images/artists/hellbala1.webp';
+	
 	// Components
 	import CtaOutlineButtonExternal from '#lib/components/ui/buttons/CtaOutlineButtonExternal.svelte';
 
@@ -12,7 +18,7 @@
 		{
 			name: m.recommendations_artist_1_name(),
 			description: m.recommendations_artist_1_description(),
-			imageSrc: 'https://i.scdn.co/image/ab6761610000e5ebc0d8834a870e764f681ece81',
+			imageSrc: Artist1,
 			imageAltText: m.recommendations_artist_1_image_alt_text(),
 			genders: [m.recommendations_artist_1_genre_1()],
 			link: 'https://open.spotify.com/artist/0fwsO499haVVv0Dmbtgt2E'
@@ -20,7 +26,7 @@
 		{
 			name: m.recommendations_artist_2_name(),
 			description: m.recommendations_artist_2_description(),
-			imageSrc: 'https://i.scdn.co/image/ab6761610000e5ebf4f1a30f972e3ef006465fda',
+			imageSrc: Artist2,
 			imageAltText: m.recommendations_artist_2_image_alt_text(),
 			genders: [m.recommendations_artist_2_genre_1()],
 			link: 'https://open.spotify.com/intl-pt/artist/6dqHUZLflPFXOPOPog1dSF?si=QIRhKt-2TZmTpnrKyqmPCA'
@@ -28,7 +34,7 @@
 		{
 			name: m.recommendations_artist_3_name(),
 			description: m.recommendations_artist_3_description(),
-			imageSrc: 'https://i.scdn.co/image/ab6761610000e5eb36b5bda390573b5fec4231c5',
+			imageSrc: Artist3,
 			imageAltText: m.recommendations_artist_3_image_alt_text(),
 			genders: [m.recommendations_artist_3_genre_1(), m.recommendations_artist_3_genre_2()],
 			link: 'https://open.spotify.com/intl-pt/artist/6ab8tnQvr8sXXIpSZCrbQs?si=yfxFcPrWRWGjUQ52SDH0ig'
@@ -36,7 +42,7 @@
 		{
 			name: m.recommendations_artist_4_name(),
 			description: m.recommendations_artist_4_description(),
-			imageSrc: 'https://i.scdn.co/image/ab67616d0000b273a91a94e2457eee2fa022cf30',
+			imageSrc: Artist4,
 			imageAltText: m.recommendations_artist_4_image_alt_text(),
 			genders: [m.recommendations_artist_4_genre_1()],
 			link: 'https://open.spotify.com/intl-pt/artist/6OgrrG9ACkrO8i7e7sw2w2?si=LGnSeA74RRStHanwNyiK7Q'
