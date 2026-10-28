@@ -15,6 +15,5 @@ export type recommendationsCardItem = {
 	description: string;
 	imageSrc: string;
 	imageAltText: string;
-	genders: string[];
 	link: string;
 };

@@ -36,7 +36,7 @@
 </script>
 
 <header
-	class="flex h-[12vh] items-center justify-between px-9 py-2 sm:px-11 sm:py-4 xl:h-[13vh] xl:px-20 xl:pt-10"
+	class="flex h-[12vh] items-center justify-between px-7 py-2 sm:px-11 sm:py-4 xl:h-[13vh] xl:px-20 xl:pt-10"
 >
 	<a
 		href={resolve('/')}

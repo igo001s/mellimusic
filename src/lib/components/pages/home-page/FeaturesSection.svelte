@@ -37,7 +37,7 @@
 </script>
 
 <section
-	class="space-y-8 bg-base-dark px-9 py-12 sm:px-11 md:space-y-14 md:py-24 xl:space-y-20 xl:px-20"
+	class="space-y-8 bg-base-dark px-7 py-12 sm:px-11 md:space-y-14 md:py-24 xl:space-y-20 xl:px-20"
 >
 	<div
 		class="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
