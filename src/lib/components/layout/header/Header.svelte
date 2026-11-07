@@ -36,7 +36,7 @@
 </script>
 
 <header
-	class="flex h-[12vh] items-center justify-between px-7 py-2 sm:px-11 sm:py-4 xl:h-[13vh] xl:px-24 xl:pt-10"
+	class="flex h-[10vh] min-h-16 items-center justify-between px-5 py-2 sm:h-[12vh] sm:px-11 sm:py-4 xl:h-[13vh] xl:px-24 xl:pt-10"
 >
 	<a
 		href={resolve('/')}
@@ -48,7 +48,7 @@
 			alt={m.header_logo_image_alt()}
 			fetchpriority="high"
 			loading="eager"
-			class="h-16 w-auto md:h-20 xl:h-24"
+			class="h-12 w-auto sm:h-16 md:h-20 xl:h-24"
 		/>
 	</a>
 
@@ -92,8 +92,8 @@
 			? m.header_close_mobile_menu_aria_label()
 			: m.header_open_mobile_menu_aria_label()}
 		aria-expanded={isMenuMobileOpen}
-		class="block xl:hidden"
+		class="block cursor-pointer xl:hidden"
 	>
-		<MenuMobileIcon iconClass="text-base-dark w-8 h-8 md:w-10 md:h-10" />
+		<MenuMobileIcon iconClass="text-base-dark h-7 w-7 sm:h-8 sm:w-8 md:h-10 md:w-10" />
 	</button>
 </header>

@@ -68,22 +68,26 @@
 	]);
 </script>
 
-<footer class="bg-base-dark px-7 pt-14 pb-10 sm:px-11 xl:px-24">
-	<div class="flex flex-col items-center justify-between gap-14 sm:flex-row sm:items-start">
-		<div class="space-y-12">
+<footer class="bg-base-dark px-5 pt-10 pb-8 sm:px-11 sm:pt-12 sm:pb-10 md:pt-14 xl:px-24">
+	<div
+		class="flex flex-col items-center justify-between gap-10 sm:flex-row sm:items-start sm:gap-12 md:gap-14"
+	>
+		<div class="space-y-8 sm:space-y-10 md:space-y-12">
 			<div class="footer-stack gap-3">
 				<a
 					href={resolve('/')}
 					aria-label={m.footer_logo_link_aria_label()}
 					class="footer-link block w-fit"
 				>
-					<MellimusicLogoLight logoClass="w-52 h-auto" />
+					<MellimusicLogoLight logoClass="h-auto w-44 sm:w-52" />
 				</a>
 
-				<p class="block font-light text-base-light/90">{m.footer_tagline()}</p>
+				<p class="block text-center font-light text-base-light/90 sm:text-start">
+					{m.footer_tagline()}
+				</p>
 			</div>
 
-			<div class="footer-stack gap-5">
+			<div class="footer-stack gap-4 sm:gap-5">
 				<p class="font-semibold text-base-light/90">{m.footer_product_of()}</p>
 
 				<a
@@ -93,18 +97,18 @@
 					target="_blank"
 					class="footer-link"
 				>
-					<IgoLogo logoClass="h-14 w-14" />
+					<IgoLogo logoClass="h-12 w-12 sm:h-14 sm:w-14" />
 				</a>
 			</div>
 		</div>
 
-		<div class="flex flex-col gap-10 sm:flex-row sm:gap-20 xl:gap-28">
-			<div class="footer-stack gap-6">
+		<div class="flex flex-col gap-8 sm:flex-row sm:gap-10 md:gap-14 lg:gap-20 xl:gap-28">
+			<div class="footer-stack gap-4 sm:gap-6">
 				<p class="column-title">
 					{m.footer_follow_title()}
 				</p>
 
-				<ul class="flex items-center gap-5">
+				<ul class="flex items-center gap-4 sm:gap-5">
 					{#each socialLinks as socialLink (socialLink.href)}
 						<li>
 							<a
@@ -114,7 +118,7 @@
 								target="_blank"
 								class="footer-link transition-colors duration-500"
 							>
-								<socialLink.icon iconClass="h-6.5 w-6.5" />
+								<socialLink.icon iconClass="h-6 w-6 sm:h-6.5 sm:w-6.5" />
 							</a>
 						</li>
 					{/each}
@@ -122,10 +126,10 @@
 			</div>
 
 			{#each footerColumns as column (column.title)}
-				<div class="footer-stack gap-5.5">
+				<div class="footer-stack gap-4 sm:gap-5.5">
 					<p class="column-title">{column.title}</p>
 
-					<ul class="footer-stack gap-4">
+					<ul class="footer-stack gap-3 sm:gap-4">
 						{#each column.items as link (link.text)}
 							<li>
 								<a href={resolve(link.href)} class="footer-link text-sm">{link.text}</a>
@@ -137,7 +141,7 @@
 		</div>
 	</div>
 
-	<div class="mt-16 border-t border-t-base-light/20 pt-12">
+	<div class="mt-10 border-t border-t-base-light/20 pt-8 sm:mt-12 sm:pt-10 md:mt-16 md:pt-12">
 		<p class="text-center text-sm font-light text-base-light/80">
 			{m.footer_copyright({ year: new Date().getFullYear() })}
 		</p>

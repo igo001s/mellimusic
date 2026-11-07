@@ -47,15 +47,17 @@
 </script>
 
 <section
-	class="flex flex-col-reverse gap-10 bg-base-light px-7 py-12 sm:px-11 md:gap-14 md:pt-40 md:pb-32 lg:flex-row xl:px-24"
+	class="flex flex-col-reverse gap-6 bg-base-light px-5 py-10 sm:gap-8 sm:px-11 sm:py-12 md:gap-12 md:pt-24 md:pb-24 lg:flex-row lg:gap-12 lg:pt-32 lg:pb-28 xl:px-24 xl:pt-40 xl:pb-32"
 >
-	<div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:gap-14 lg:shrink-0 lg:gap-8 xl:gap-14">
+	<div
+		class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:gap-8 lg:shrink-0 lg:gap-8 xl:gap-14"
+	>
 		{#each indicationCardItems as item (item.name)}
 			<a
 				href={item.link}
 				rel="external noopener noreferrer"
 				target="_blank"
-				class="group relative h-56 w-full overflow-hidden rounded-xl lg:w-56"
+				class="group relative h-48 w-full overflow-hidden rounded-xl sm:h-56 lg:w-56"
 			>
 				<img
 					src={item.imageSrc}
@@ -64,7 +66,7 @@
 				/>
 
 				<div
-					class="absolute bottom-0 left-0 flex w-full flex-col gap-2 bg-base-dark/60 px-4 py-4 text-base-light"
+					class="absolute bottom-0 left-0 flex w-full flex-col gap-1.5 bg-base-dark/60 px-3 py-3 text-base-light sm:gap-2 sm:px-4 sm:py-4"
 				>
 					<p class="text-base leading-tight font-bold">{item.name}</p>
 
@@ -74,7 +76,7 @@
 		{/each}
 	</div>
 
-	<div class="flex flex-col items-center gap-6 sm:items-start lg:mx-auto lg:gap-8">
+	<div class="flex flex-col items-center gap-4 sm:items-start sm:gap-6 lg:mx-auto lg:gap-8">
 		<h2
 			class="text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-dark sm:text-start sm:text-4xl md:text-5xl lg:max-w-2xl lg:text-4xl xl:text-6xl"
 		>
