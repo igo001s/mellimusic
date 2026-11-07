@@ -17,3 +17,9 @@ export type recommendationsCardItem = {
 	imageAltText: string;
 	link: string;
 };
+
+export type FaqItem = {
+	faqQuestion: string;
+	faqAnswer: string;
+	showAnswer: boolean;
+};

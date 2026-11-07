@@ -47,7 +47,7 @@
 </script>
 
 <section
-	class="flex flex-col-reverse gap-10 bg-base-light px-7 py-12 sm:px-11 md:gap-14 md:py-28 lg:flex-row xl:px-20"
+	class="flex flex-col-reverse gap-10 bg-base-light px-7 py-12 sm:px-11 md:gap-14 md:pt-40 md:pb-32 lg:flex-row xl:px-24"
 >
 	<div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:gap-14 lg:shrink-0 lg:gap-8 xl:gap-14">
 		{#each indicationCardItems as item (item.name)}
@@ -74,9 +74,9 @@
 		{/each}
 	</div>
 
-	<div class="flex min-w-0 flex-col items-center gap-6 sm:items-start lg:mx-auto lg:gap-8">
+	<div class="flex flex-col items-center gap-6 sm:items-start lg:mx-auto lg:gap-8">
 		<h2
-			class="max-w-xs text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-dark sm:max-w-md sm:text-start sm:text-4xl md:max-w-xl md:text-5xl lg:text-4xl xl:max-w-2xl xl:text-6xl"
+			class="text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-dark sm:text-start sm:text-4xl md:text-5xl lg:max-w-2xl lg:text-4xl xl:text-6xl"
 		>
 			{m.recommendations_heading()}
 		</h2>

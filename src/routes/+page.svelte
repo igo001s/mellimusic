@@ -6,6 +6,7 @@
 	import HeroSection from '#lib/components/pages/home-page/HeroSection.svelte';
 	import FeaturesSection from '#lib/components/pages/home-page/FeaturesSection.svelte';
 	import RecommendationsSection from '#lib/components/pages/home-page/RecommendationsSection.svelte';
+	import FaqSection from '#lib/components/pages/home-page/FaqSection.svelte';
 
 	// Paraglides
 	import { m } from '#lib/paraglide/messages.js';
@@ -28,4 +29,6 @@
 	<FeaturesSection />
 
 	<RecommendationsSection />
+
+	<FaqSection />
 </main>

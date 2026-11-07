@@ -37,13 +37,13 @@
 </script>
 
 <section
-	class="space-y-8 bg-base-dark px-7 py-12 sm:px-11 md:space-y-14 md:py-24 xl:space-y-20 xl:px-20"
+	class="space-y-8 bg-base-dark px-7 py-12 sm:px-11 md:space-y-14 md:py-32 xl:space-y-24 xl:px-24"
 >
 	<div
 		class="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
 	>
 		<h2
-			class="max-w-xs text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-light sm:max-w-md sm:text-start sm:text-4xl md:max-w-xl md:text-5xl xl:max-w-2xl xl:text-6xl"
+			class="text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-light sm:text-start sm:text-4xl md:text-5xl lg:max-w-2xl lg:text-4xl xl:text-6xl"
 		>
 			{m.features_title()}
 		</h2>
@@ -55,7 +55,7 @@
 		</div>
 	</div>
 
-	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 xl:grid-cols-4 xl:gap-8">
+	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 xl:grid-cols-4 xl:gap-10">
 		{#each featureCardItems as item (item.title)}
 			<div class="flex flex-col overflow-hidden rounded-xl">
 				<img
