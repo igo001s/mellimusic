@@ -16,7 +16,8 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter()
+			adapter: adapter(),
+			inlineStyleThreshold: 10_000
 		}),
 		paraglideVitePlugin({
 			project: './project.inlang',
