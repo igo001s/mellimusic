@@ -73,7 +73,7 @@
 		</div>
 	</div>
 
-	<div class="hidden lg:block lg:w-4/12 xl:w-3/12">
+	<div class="hidden lg:block lg:w-100">
 		<enhanced:img
 			src={HeroSectionIllustration}
 			alt={m.hero_artist_illustration_alt_text()}
