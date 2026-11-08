@@ -17,7 +17,7 @@
 	// Paraglide
 	import { m } from '#lib/paraglide/messages.js';
 
-	const footerColumns: FooterColumnItem[] = $derived([
+	const footerColumns: FooterColumnItem[] = $state([
 		{
 			title: m.footer_navigation_title(),
 			items: [
@@ -54,7 +54,7 @@
 		}
 	]);
 
-	const socialLinks: FooterSocialLink[] = $derived([
+	const socialLinks: FooterSocialLink[] = $state([
 		{
 			icon: LinkedinIcon,
 			ariaLabel: m.footer_social_linkedin_aria_label(),

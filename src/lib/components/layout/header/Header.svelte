@@ -19,7 +19,7 @@
 	// Props
 	let { isMenuMobileOpen = $bindable(false) }: { isMenuMobileOpen?: boolean } = $props();
 
-	const navItems: HeaderNavItem[] = $derived([
+	const navItems: HeaderNavItem[] = $state([
 		{
 			href: '/',
 			text: m.header_navigation_text_my_musical_profile()

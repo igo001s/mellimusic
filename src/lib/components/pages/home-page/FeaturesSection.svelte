@@ -8,7 +8,7 @@
 	// Paraglides
 	import { m } from '#lib/paraglide/messages.js';
 
-	const featureCardItems: FeatureCardItem[] = $derived([
+	const featureCardItems: FeatureCardItem[] = $state([
 		{
 			imageSrc: 'https://placehold.co/400x200',
 			imageAltText: 'Illustrative image of a MelliMusic feature',

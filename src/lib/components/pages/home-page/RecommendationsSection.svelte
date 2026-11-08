@@ -14,7 +14,7 @@
 	// Paraglide
 	import { m } from '#lib/paraglide/messages.js';
 
-	const indicationCardItems: recommendationsCardItem[] = $derived([
+	const indicationCardItems: recommendationsCardItem[] = $state([
 		{
 			name: m.recommendations_artist_1_name(),
 			description: m.recommendations_artist_1_description(),
