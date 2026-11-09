@@ -2,7 +2,12 @@
 import type { RequestHandler } from '@sveltejs/kit';
 
 export const GET: RequestHandler = ({ url }) => {
-	const pages = [{ name: '', lastMod: '2026-10-19' }];
+	const pages = [
+		{ name: '', lastMod: '2026-11-08' },
+		{ name: 'my-music-profile', lastMod: '2026-11-08' },
+		{ name: 'music-archive', lastMod: '2026-11-08' },
+		{ name: 'music-community', lastMod: '2026-11-08' }
+	];
 
 	const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
