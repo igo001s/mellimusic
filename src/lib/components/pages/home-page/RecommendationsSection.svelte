@@ -47,7 +47,7 @@
 </script>
 
 <section
-	class="flex flex-col-reverse gap-6 bg-base-light px-5 py-10 sm:gap-8 sm:px-11 sm:py-12 md:gap-12 md:pt-24 md:pb-24 lg:flex-row lg:gap-12 lg:pt-32 lg:pb-28 xl:px-24 xl:pt-40 xl:pb-32"
+	class="flex flex-col-reverse gap-6 bg-base-light px-5 py-10 sm:gap-8 sm:px-11 sm:py-12 md:gap-12 md:pt-24 md:pb-24 lg:flex-row lg:gap-12 lg:pt-32 lg:pb-28 xl:px-20 xl:pt-40 xl:pb-32"
 >
 	<div
 		class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:gap-8 lg:shrink-0 lg:gap-8 xl:gap-14"

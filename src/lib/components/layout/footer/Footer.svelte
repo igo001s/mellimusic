@@ -22,15 +22,15 @@
 			title: m.footer_navigation_title(),
 			items: [
 				{
-					href: '/',
+					href: '/my-musical-profile',
 					text: m.footer_navigation_my_musical_profile()
 				},
 				{
-					href: '/',
+					href: '/music-archive',
 					text: m.footer_navigation_music_archive()
 				},
 				{
-					href: '/',
+					href: '/music-community',
 					text: m.footer_navigation_music_community()
 				}
 			]
@@ -68,7 +68,7 @@
 	]);
 </script>
 
-<footer class="bg-base-dark px-5 pt-10 pb-8 sm:px-11 sm:pt-12 sm:pb-10 md:pt-14 xl:px-24">
+<footer class="bg-base-dark px-5 pt-10 pb-8 sm:px-11 sm:pt-12 sm:pb-10 md:pt-14 xl:px-20">
 	<div
 		class="flex flex-col items-center justify-between gap-10 sm:flex-row sm:items-start sm:gap-12 md:gap-14"
 	>

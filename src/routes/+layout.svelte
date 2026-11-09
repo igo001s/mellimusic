@@ -41,8 +41,12 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Header bind:isMenuMobileOpen />
+{#if page.route.id !== '/my-musical-profile' && page.route.id !== '/music-archive' && page.route.id !== '/music-community'}
+	<Header bind:isMenuMobileOpen />
 
-{@render children()}
+	{@render children()}
 
-<Footer />
+	<Footer />
+{:else}
+	{@render children()}
+{/if}

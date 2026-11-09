@@ -43,7 +43,7 @@
 </script>
 
 <section
-	class="flex flex-col gap-6 bg-base-light px-5 pt-4 pb-10 sm:gap-8 sm:px-11 sm:pb-12 md:gap-12 md:pt-14 md:pb-24 lg:flex-row lg:gap-12 lg:pt-20 lg:pb-28 xl:px-24 xl:pb-32"
+	class="flex flex-col gap-6 bg-base-light px-5 pt-4 pb-10 sm:gap-8 sm:px-11 sm:pb-12 md:gap-12 md:pt-14 md:pb-24 lg:flex-row lg:gap-12 lg:pt-20 lg:pb-28 xl:px-20 xl:pb-32"
 >
 	<div class="flex flex-col items-center gap-4 sm:items-start sm:gap-6 lg:max-w-lg lg:gap-8">
 		<h2

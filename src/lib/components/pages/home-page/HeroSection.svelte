@@ -29,7 +29,7 @@
 </script>
 
 <section
-	class="flex h-full flex-col gap-6 px-5 py-6 sm:gap-8 sm:px-11 sm:py-8 md:gap-10 md:py-12 lg:flex-row lg:items-center lg:justify-between lg:gap-12 xl:h-[87vh] xl:gap-20 xl:px-24 xl:py-0"
+	class="flex h-full flex-col gap-6 px-5 py-6 sm:gap-8 sm:px-11 sm:py-8 md:gap-10 md:py-12 lg:flex-row lg:items-center lg:justify-between lg:gap-12 xl:h-[87vh] xl:gap-20 xl:px-20 xl:py-0"
 >
 	<div class="w-full space-y-6 sm:space-y-8 md:space-y-10 lg:w-4/6 xl:w-7/12 xl:space-y-12">
 		<div class="max-w-4xl space-y-3 sm:space-y-4 md:space-y-5">

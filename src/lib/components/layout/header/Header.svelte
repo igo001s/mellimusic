@@ -21,22 +21,22 @@
 
 	const navItems: HeaderNavItem[] = $state([
 		{
-			href: '/',
+			href: '/my-musical-profile',
 			text: m.header_navigation_text_my_musical_profile()
 		},
 		{
-			href: '/',
+			href: '/music-archive',
 			text: m.header_navigation_text_music_archive()
 		},
 		{
-			href: '/',
+			href: '/music-community',
 			text: m.header_navigation_text_music_community()
 		}
 	]);
 </script>
 
 <header
-	class="flex h-[10vh] min-h-16 items-center justify-between px-5 py-2 sm:h-[12vh] sm:px-11 sm:py-4 xl:h-[13vh] xl:px-24 xl:pt-10"
+	class="flex h-[10vh] min-h-16 items-center justify-between px-5 py-2 sm:h-[12vh] sm:px-11 sm:py-4 xl:h-[13vh] xl:px-20 xl:pt-10"
 >
 	<a
 		href={resolve('/')}
