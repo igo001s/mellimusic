@@ -4,7 +4,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 export const GET: RequestHandler = ({ url }) => {
 	const pages = [
 		{ name: '', lastMod: '2026-11-08' },
-		{ name: 'my-music-profile', lastMod: '2026-11-08' },
+		{ name: 'my-musical-profile', lastMod: '2026-11-08' },
 		{ name: 'music-archive', lastMod: '2026-11-08' },
 		{ name: 'music-community', lastMod: '2026-11-08' }
 	];
