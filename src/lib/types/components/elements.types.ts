@@ -23,3 +23,14 @@ export type FaqItem = {
 	faqAnswer: string;
 	showAnswer: boolean;
 };
+
+export type MyMusicalProfileSection = {
+	id: 'artists' | 'songs' | '';
+	title: string;
+	periods: string[];
+};
+
+export type SelectedPeriod = {
+	sectionId: 'artists' | 'songs' | '';
+	period: string;
+};

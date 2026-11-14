@@ -3,7 +3,7 @@
 	import { resolve } from '$app/paths';
 
 	// Assets
-	import MellimusicLogoLight from '#lib/assets/images/logos/MellimusicLogoLight.svelte';
+	import MellimusicLogo from '#lib/assets/images/logos/MellimusicLogo.svelte';
 	import IgoLogo from '#lib/assets/images/logos/IgoLogo.svelte';
 	import LinkedinIcon from '#lib/assets/icons/LinkedinIcon.svelte';
 	import GithubIcon from '#lib/assets/icons/GithubIcon.svelte';
@@ -79,7 +79,7 @@
 					aria-label={m.footer_logo_link_aria_label()}
 					class="footer-link block w-fit"
 				>
-					<MellimusicLogoLight logoClass="h-auto w-44 sm:w-52" />
+					<MellimusicLogo logoClass="h-auto w-44 sm:w-52" />
 				</a>
 
 				<p class="block text-center font-light text-base-light/90 sm:text-start">
