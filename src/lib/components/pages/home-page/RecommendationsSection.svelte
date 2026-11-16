@@ -47,7 +47,7 @@
 </script>
 
 <section
-	class="flex flex-col-reverse gap-6 bg-base-light px-5 py-10 sm:gap-8 sm:px-11 sm:py-12 md:gap-12 md:pt-24 md:pb-24 lg:flex-row lg:gap-12 lg:pt-32 lg:pb-28 xl:px-20 xl:pt-40 xl:pb-32"
+	class="flex flex-col-reverse gap-6 bg-base-light px-5 py-10 sm:gap-8 sm:px-11 sm:py-12 md:gap-12 md:pt-24 md:pb-24 lg:ml-auto lg:w-[95dvw] lg:flex-row lg:gap-12 lg:pt-32 lg:pb-28 xl:pt-40 xl:pr-20 xl:pb-32"
 >
 	<div
 		class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:gap-8 lg:shrink-0 lg:gap-8 xl:gap-14"
@@ -76,7 +76,7 @@
 		{/each}
 	</div>
 
-	<div class="flex flex-col items-center gap-4 sm:items-start sm:gap-6 lg:mx-auto lg:gap-8">
+	<div class="flex flex-col items-center gap-5 sm:items-start sm:gap-6 lg:mx-auto lg:gap-8">
 		<h2
 			class="text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-dark sm:text-start sm:text-4xl md:text-5xl lg:max-w-2xl lg:text-4xl xl:text-6xl"
 		>

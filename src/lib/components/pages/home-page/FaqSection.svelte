@@ -43,9 +43,9 @@
 </script>
 
 <section
-	class="flex flex-col gap-6 bg-base-light px-5 pt-4 pb-10 sm:gap-8 sm:px-11 sm:pb-12 md:gap-12 md:pt-14 md:pb-24 lg:flex-row lg:gap-12 lg:pt-20 lg:pb-28 xl:px-20 xl:pb-32"
+	class="flex flex-col gap-6 bg-base-light px-5 pt-4 pb-10 sm:gap-8 sm:px-11 sm:pb-12 md:gap-12 md:pt-14 md:pb-24 lg:ml-auto lg:w-[95dvw] lg:flex-row lg:gap-4 lg:pt-20 lg:pb-28 xl:pb-32 xl:pl-20"
 >
-	<div class="flex flex-col items-center gap-4 sm:items-start sm:gap-6 lg:max-w-lg lg:gap-8">
+	<div class="flex flex-col items-center gap-5 sm:items-start sm:gap-6 lg:max-w-lg lg:gap-8">
 		<h2
 			class="text-center text-3xl leading-[1.1] font-bold tracking-tight text-base-dark sm:text-start sm:text-4xl md:text-5xl lg:text-4xl xl:text-6xl"
 		>
@@ -59,7 +59,7 @@
 		</p>
 	</div>
 
-	<div class="w-full max-w-4xl space-y-3 sm:space-y-4 md:space-y-6 lg:ml-2 lg:flex-1 2xl:ml-56">
+	<div class="w-full max-w-4xl space-y-4 md:space-y-6 lg:ml-2 lg:flex-1 2xl:ml-56">
 		{#each faqItems as faqItem, i (i)}
 			<button
 				type="button"
